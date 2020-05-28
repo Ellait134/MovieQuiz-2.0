@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:id="@+id/dialogfon"
+    android:background="@drawable/main_background"
+    android:layout_gravity="center"
+    android:scaleType="centerCrop"
+    android:layout_margin="10dp"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="20dp" >
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            android:textColor="@color/gold"
+            android:text="@string/leveloneend" />
+
+
+        <TextView
+            android:id="@+id/textdescription"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_marginTop="80dp"
+            android:layout_weight="40"
+            android:text="@string/lvlone"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:textStyle="italic" />
+
+        <ImageView
+            android:id="@+id/previewimg"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="17"
+            android:src="@drawable/bolvanka" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:id="@+id/buttoncontinue"
+            android:background="@drawable/style_btn_stroke_white"
+            android:layout_weight="8"
+            android:text="@string/textcontinueend"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textSize="24sp"
+            android:layout_marginTop="60dp"
+            android:layout_height="0dp"/>
+    </LinearLayout>
+
+</LinearLayout>

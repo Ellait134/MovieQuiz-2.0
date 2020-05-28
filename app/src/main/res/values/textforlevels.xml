@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lvl1text0">Армагедон</string>
+    <string name="lvl1text1">Чудо На Гудзоне</string>
+    <string name="lvl1text2">Джуманджи: Новый уровень</string>
+    <string name="lvl1text3">Глубоководный горизонт</string>
+    <string name="lvl1text4">Интерстеллар</string>
+    <string name="lvl1text5">Наркокурьер</string>
+    <string name="lvl1text6">Одарённая</string>
+    <string name="lvl1text7">1+1</string>
+    <string name="lvl1text8">Дело Ричарда Джуэлла</string>
+    <string name="lvl1text9">Волк с Уолл-стрит</string>
+
+    <string name="lvl2text0">Дэвид Финчер</string>
+    <string name="lvl2text1">Гай Ричи</string>
+    <string name="lvl2text2">Джордж Лукас</string>
+    <string name="lvl2text3">Джеймс Кэмерон</string>
+    <string name="lvl2text4">Кристофер Нолан</string>
+    <string name="lvl2text5">Мартин Скорсезе</string>
+    <string name="lvl2text6">Ридли Скотт</string>
+    <string name="lvl2text7">Стивен Спилберг</string>
+    <string name="lvl2text8">Квентин Тарантино</string>
+    <string name="lvl2text9">Вуди Аллен</string>
+
+    <string name="lvl3text0">Аль Пачино</string>
+    <string name="lvl3text1">Роберт Де Ниро</string>
+    <string name="lvl3text2">Леонардо Ди Каприо</string>
+    <string name="lvl3text3">Джонни Депп</string>
+    <string name="lvl3text4">Джим Керри</string>
+    <string name="lvl3text5">Морган Фримен</string>
+    <string name="lvl3text6">Джек Николсон</string>
+    <string name="lvl3text7">Роберт Дауни мл.</string>
+    <string name="lvl3text8">Уилл Смит</string>
+    <string name="lvl3text9">Том Хэнкс</string>
+</resources>

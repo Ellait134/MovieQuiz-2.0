@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MovieQuiz</string>
+    <string name="start">Играть</string>
+    <string name="additional_levels">Доп.Уровни</string>
+    <string name="ratings">Рейтинги</string>
+    <string name="point">Очки:</string>
+    <string name="back">Назад</string>
+    <string name="textcontinue">Ок!</string>
+    <string name="textcontinueend">Продолжить</string>
+</resources>
