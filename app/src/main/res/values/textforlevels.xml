@@ -32,4 +32,26 @@
     <string name="lvl3text7">Роберт Дауни мл.</string>
     <string name="lvl3text8">Уилл Смит</string>
     <string name="lvl3text9">Том Хэнкс</string>
+
+    <string name="lvl4text0">Сезар</string>
+    <string name="lvl4text1">Золотой глобус</string>
+    <string name="lvl4text2">Золотой лев</string>
+    <string name="lvl4text3">Золотая малина</string>
+    <string name="lvl4text4">Золота Маска</string>
+    <string name="lvl4text5">Золотой медведь</string>
+    <string name="lvl4text6">Ника</string>
+    <string name="lvl4text7">Оскар</string>
+    <string name="lvl4text8">Сатурн</string>
+    <string name="lvl4text9">Золотая пальмовая ветвь</string>
+
+    <string name="lvl5text0">2013</string>
+    <string name="lvl5text1">2015</string>
+    <string name="lvl5text2">2019</string>
+    <string name="lvl5text3">2012</string>
+    <string name="lvl5text4">2010</string>
+    <string name="lvl5text5">2017</string>
+    <string name="lvl5text6">2014</string>
+    <string name="lvl5text7">2017</string>
+    <string name="lvl5text8">2011</string>
+    <string name="lvl5text9">2018</string>
 </resources>

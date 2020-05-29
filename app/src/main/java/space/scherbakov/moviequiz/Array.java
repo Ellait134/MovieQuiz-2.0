@@ -93,4 +93,64 @@ public class Array {
     };
 
     //Третий уровень - Конец
+
+    //Четвёртый уровень - Начало
+    final int [] images4 = {
+            R.drawable.cesar,
+            R.drawable.globus,
+            R.drawable.lev,
+            R.drawable.malina,
+            R.drawable.maska,
+            R.drawable.medved,
+            R.drawable.nika,
+            R.drawable.oskar,
+            R.drawable.saturn,
+            R.drawable.vetv,
+    };
+
+    final int[] texts4 ={
+
+            R.string.lvl4text0,
+            R.string.lvl4text1,
+            R.string.lvl4text2,
+            R.string.lvl4text3,
+            R.string.lvl4text4,
+            R.string.lvl4text5,
+            R.string.lvl4text6,
+            R.string.lvl4text7,
+            R.string.lvl4text8,
+            R.string.lvl4text9,
+    };
+
+    //Четвёртый уровень - Конец
+
+    //Пятый уровень - Начало
+    final int [] images5 = {
+            R.drawable.rabstva,
+            R.drawable.irganaponijenie,
+            R.drawable.irlandez,
+            R.drawable.jiznpi,
+            R.drawable.korolgovorit,
+            R.drawable.lalalend,
+            R.drawable.sniper,
+            R.drawable.temnievremena,
+            R.drawable.xranitelivremeni,
+            R.drawable.zelenayakniga,
+    };
+
+    final int[] texts5 ={
+
+            R.string.lvl5text0,
+            R.string.lvl5text1,
+            R.string.lvl5text2,
+            R.string.lvl5text3,
+            R.string.lvl5text4,
+            R.string.lvl5text5,
+            R.string.lvl5text6,
+            R.string.lvl5text7,
+            R.string.lvl5text8,
+            R.string.lvl5text9,
+    };
+
+    //Пятый уровень - Конец
 }

@@ -104,6 +104,37 @@ public class GameLevels extends AppCompatActivity {
         });
 
         //Кнопка 3-го уровня - Конец
+
+        //Кнопка 4-го уровня - Начало
+        TextView textView4 = (TextView) findViewById(R.id.textView4);
+        textView4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                try{
+                    Intent intent = new Intent(GameLevels.this, Level4.class);
+                    startActivity(intent);finish();
+                }catch (Exception e){
+
+                }
+            }
+        });
+
+        //Кнопка 4-го уровня - Конец
+        //Кнопка 5-го уровня - Начало
+        TextView textView5 = (TextView) findViewById(R.id.textView5);
+        textView5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                try{
+                    Intent intent = new Intent(GameLevels.this, Level5.class);
+                    startActivity(intent);finish();
+                }catch (Exception e){
+
+                }
+            }
+        });
+
+        //Кнопка 5-го уровня - Конец
     }
                 //Системная кнопка назад - Начало
                // @Override

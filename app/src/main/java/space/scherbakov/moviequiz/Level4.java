@@ -20,7 +20,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import java.util.Random;
 
-public class Level3 extends AppCompatActivity {
+public class Level4 extends AppCompatActivity {
 
     Dialog dialog;
     Dialog dialogEnd;
@@ -37,7 +37,7 @@ public class Level3 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.lvs3);
+        setContentView(R.layout.lvs4);
 
         //Круглые углы - Начало
         final ImageView img1 = (ImageView) findViewById(R.id.img1);
@@ -61,7 +61,7 @@ public class Level3 extends AppCompatActivity {
         //Статус бар - Конец
 
 
-        //Диалоговое окно начало ур.3 - Начало
+        //Диалоговое окно начало ур.4 - Начало
         dialog = new Dialog(this);
         dialog.requestWindowFeature(Window.FEATURE_NO_TITLE);
         dialog.setContentView(R.layout.previewdialog);
@@ -70,10 +70,10 @@ public class Level3 extends AppCompatActivity {
         dialog.show();
 
         ImageView previewimg =(ImageView)dialog.findViewById(R.id.previewimg);
-        previewimg.setImageResource(R.drawable.previewimgthree);
+        previewimg.setImageResource(R.drawable.previewgamefour);
 
         TextView textdescription =(TextView)dialog.findViewById(R.id.textdescription);
-        textdescription.setText(R.string.levelthree);
+        textdescription.setText(R.string.levelfour);
 
         Button buttoncontinue = (Button) dialog.findViewById(R.id.buttoncontinue);
         buttoncontinue.setOnClickListener(new View.OnClickListener() {
@@ -83,9 +83,9 @@ public class Level3 extends AppCompatActivity {
             }
         });
 
-        //Диалоговое окно начало ур3. - конец
+        //Диалоговое окно начало ур4. - конец
 
-        //Диалоговое окно конец ур3. - Начало
+        //Диалоговое окно конец ур4. - Начало
         dialogEnd = new Dialog(this);
         dialogEnd.requestWindowFeature(Window.FEATURE_NO_TITLE);
         dialogEnd.setContentView(R.layout.dialogend);
@@ -93,7 +93,7 @@ public class Level3 extends AppCompatActivity {
         dialogEnd.setCancelable(false);
 
         TextView textdescriptionEnd = (TextView)dialogEnd.findViewById(R.id.textdescription);
-        textdescriptionEnd.setText(R.string.lvlthree);
+        textdescriptionEnd.setText(R.string.lvlfour);
 
 
 
@@ -102,7 +102,7 @@ public class Level3 extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 try {
-                    Intent intent = new Intent(Level3.this, Level4.class);
+                    Intent intent = new Intent(Level4.this, Level5.class);
                     startActivity(intent);
                     finish();
                 } catch (Exception e) {
@@ -119,7 +119,7 @@ public class Level3 extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 try{
-                    Intent intent = new Intent(Level3.this,GameLevels.class);
+                    Intent intent = new Intent(Level4.this,GameLevels.class);
                     startActivity(intent);
                     finish();
 
@@ -138,28 +138,28 @@ public class Level3 extends AppCompatActivity {
         //Массив прогресс бара - Конец
 
         //Анимация - Начало
-        final Animation a = AnimationUtils.loadAnimation(Level3.this, R.anim.alpha);
+        final Animation a = AnimationUtils.loadAnimation(Level4.this, R.anim.alpha);
         //Анимация - Конец
 
         //Картинки и текст - Начало
         num1 = random.nextInt(10);
-        img1.setImageResource(array.images3[num1]);
+        img1.setImageResource(array.images4[num1]);
 
         num2 = random.nextInt(10);
-        img2.setImageResource(array.images3[num2]);
+        img2.setImageResource(array.images4[num2]);
 
         num3 = random.nextInt(10);
-        img3.setImageResource(array.images3[num3]);
+        img3.setImageResource(array.images4[num3]);
 
         num4 = random.nextInt(10);
-        img4.setImageResource(array.images3[num4]);
+        img4.setImageResource(array.images4[num4]);
 
         //final int[]anums = {
         //num1,num2,num3,num4
         //};
         //final int nums = random.nextInt(anums.length);
 
-        text1.setText(array.texts3[num1]);
+        text1.setText(array.texts4[num1]);
         //Картинки и текст - Конец
 
         //Анимация Первой картинки - Начало
@@ -211,25 +211,25 @@ public class Level3 extends AppCompatActivity {
                         dialogEnd.show();
                     } else {
                         num1 = random.nextInt(10);
-                        img1.setImageResource(array.images3[num1]);
+                        img1.setImageResource(array.images4[num1]);
                         img1.startAnimation(a);
 
                         num2 = random.nextInt(10);
-                        img2.setImageResource(array.images3[num2]);
+                        img2.setImageResource(array.images4[num2]);
                         img2.startAnimation(a);
 
                         num3 = random.nextInt(10);
-                        img3.setImageResource(array.images3[num3]);
+                        img3.setImageResource(array.images4[num3]);
                         img3.startAnimation(a);
 
                         num4 = random.nextInt(10);
-                        img4.setImageResource(array.images3[num4]);
+                        img4.setImageResource(array.images4[num4]);
                         img4.startAnimation(a);
 
 
                         //final int nums = random.nextInt(num1 | num2 | num3 | num4);
 
-                        text1.setText(array.texts3[num1]);
+                        text1.setText(array.texts4[num1]);
 
                         img2.setEnabled(true);
                         img3.setEnabled(true);
@@ -292,25 +292,25 @@ public class Level3 extends AppCompatActivity {
                         dialogEnd.show();
                     } else {
                         num1 = random.nextInt(10);
-                        img1.setImageResource(array.images3[num1]);
+                        img1.setImageResource(array.images4[num1]);
                         img1.startAnimation(a);
 
                         num2 = random.nextInt(10);
-                        img2.setImageResource(array.images3[num2]);
+                        img2.setImageResource(array.images4[num2]);
                         img2.startAnimation(a);
 
                         num3 = random.nextInt(10);
-                        img3.setImageResource(array.images3[num3]);
+                        img3.setImageResource(array.images4[num3]);
                         img3.startAnimation(a);
 
                         num4 = random.nextInt(10);
-                        img4.setImageResource(array.images3[num4]);
+                        img4.setImageResource(array.images4[num4]);
                         img4.startAnimation(a);
 
 
                         //final int nums = random.nextInt(num1 | num2 | num3 | num4);
 
-                        text1.setText(array.texts3[num1]);
+                        text1.setText(array.texts4[num1]);
 
                         img1.setEnabled(true);
                         img3.setEnabled(true);
@@ -372,25 +372,25 @@ public class Level3 extends AppCompatActivity {
                         dialogEnd.show();
                     } else {
                         num1 = random.nextInt(10);
-                        img1.setImageResource(array.images3[num1]);
+                        img1.setImageResource(array.images4[num1]);
                         img1.startAnimation(a);
 
                         num2 = random.nextInt(10);
-                        img2.setImageResource(array.images3[num2]);
+                        img2.setImageResource(array.images4[num2]);
                         img2.startAnimation(a);
 
                         num3 = random.nextInt(10);
-                        img3.setImageResource(array.images3[num3]);
+                        img3.setImageResource(array.images4[num3]);
                         img3.startAnimation(a);
 
                         num4 = random.nextInt(10);
-                        img4.setImageResource(array.images3[num4]);
+                        img4.setImageResource(array.images4[num4]);
                         img4.startAnimation(a);
 
 
                         //final int nums = random.nextInt(num1 | num2 | num3 | num4);
 
-                        text1.setText(array.texts3[num1]);
+                        text1.setText(array.texts4[num1]);
 
                         img2.setEnabled(true);
                         img1.setEnabled(true);
@@ -452,25 +452,25 @@ public class Level3 extends AppCompatActivity {
                         dialogEnd.show();
                     } else {
                         num1 = random.nextInt(10);
-                        img1.setImageResource(array.images3[num1]);
+                        img1.setImageResource(array.images4[num1]);
                         img1.startAnimation(a);
 
                         num2 = random.nextInt(10);
-                        img2.setImageResource(array.images3[num2]);
+                        img2.setImageResource(array.images4[num2]);
                         img2.startAnimation(a);
 
                         num3 = random.nextInt(10);
-                        img3.setImageResource(array.images3[num3]);
+                        img3.setImageResource(array.images4[num3]);
                         img3.startAnimation(a);
 
                         num4 = random.nextInt(10);
-                        img4.setImageResource(array.images3[num4]);
+                        img4.setImageResource(array.images4[num4]);
                         img4.startAnimation(a);
 
 
                         //final int nums = random.nextInt(num1 | num2 | num3 | num4);
 
-                        text1.setText(array.texts3[num1]);
+                        text1.setText(array.texts4[num1]);
 
                         img1.setEnabled(true);
                         img2.setEnabled(true);
@@ -490,7 +490,7 @@ public class Level3 extends AppCompatActivity {
     @Override
     public void onBackPressed () {
         try {
-            Intent intent = new Intent(Level3.this, GameLevels.class);
+            Intent intent = new Intent(Level4.this, GameLevels.class);
             startActivity(intent);
             finish();
 
